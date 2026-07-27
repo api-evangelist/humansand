@@ -1,7 +1,27 @@
 aid: humansand
 name: Humansand
-description: Humansand is a company surfaced as a portfolio company of felicis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'humans& (Humansand) is a human-centric frontier AI lab publicly introduced on
+  January 20, 2026. It aims to reimagine AI around people and their relationships, positioning
+  models as connective tissue that strengthens organizations and communities rather than
+  autonomous replacements. Its stated research agenda centers on long-horizon and multi-agent
+  reinforcement learning, memory, and user understanding, tightly integrating scientific research
+  with product development. The founding team has led work in reasoning, behavioral training,
+  agents, and alignment across frontier industry and academic labs including xAI, Anthropic,
+  Google DeepMind, OpenAI, Meta, Reflection, AI2, Stanford, and MIT. Its seed round is led by
+  SV Angel and co-founder Georges Harik. As of this profile the company is pre-product with no
+  publicly documented API, SDK, or developer platform.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://humansand.ai/icon.jpg
 url: https://raw.githubusercontent.com/api-evangelist/humansand/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Reinforcement Learning
+- Frontier AI
+- AI Research Lab
+- Multi-Agent Systems
+- AI Agents
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/humansand-domain-security.yml
 - type: Website
   url: https://humansand.ai
+- type: Blog
+  url: https://humansand.ai/blog/nvfp4-rl.html
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
