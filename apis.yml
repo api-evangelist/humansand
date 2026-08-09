@@ -1,15 +1,14 @@
 aid: humansand
 name: Humansand
-description: 'humans& (Humansand) is a human-centric frontier AI lab publicly introduced on
-  January 20, 2026. It aims to reimagine AI around people and their relationships, positioning
-  models as connective tissue that strengthens organizations and communities rather than
-  autonomous replacements. Its stated research agenda centers on long-horizon and multi-agent
-  reinforcement learning, memory, and user understanding, tightly integrating scientific research
-  with product development. The founding team has led work in reasoning, behavioral training,
-  agents, and alignment across frontier industry and academic labs including xAI, Anthropic,
-  Google DeepMind, OpenAI, Meta, Reflection, AI2, Stanford, and MIT. Its seed round is led by
-  SV Angel and co-founder Georges Harik. As of this profile the company is pre-product with no
-  publicly documented API, SDK, or developer platform.'
+description: humans& (Humansand) is a human-centric frontier AI lab publicly introduced on January 20,
+  2026. It aims to reimagine AI around people and their relationships, positioning models as connective
+  tissue that strengthens organizations and communities rather than autonomous replacements. Its stated
+  research agenda centers on long-horizon and multi-agent reinforcement learning, memory, and user understanding,
+  tightly integrating scientific research with product development. The founding team has led work in
+  reasoning, behavioral training, agents, and alignment across frontier industry and academic labs including
+  xAI, Anthropic, Google DeepMind, OpenAI, Meta, Reflection, AI2, Stanford, and MIT. Its seed round is
+  led by SV Angel and co-founder Georges Harik. As of this profile the company is pre-product with no
+  publicly documented API, SDK, or developer platform.
 accessModel:
   pricing: unknown
   onboarding: unknown
@@ -31,7 +30,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-08-08'
 tags:
 - Company
 - Artificial Intelligence
@@ -54,8 +53,16 @@ common:
   url: https://humansand.ai
 - type: Blog
   url: https://humansand.ai/blog/nvfp4-rl.html
+- type: LLMsTxt
+  url: llms/humansand-llms.txt
+- type: TermsOfService
+  url: https://humansand.ai/
+- type: PrivacyPolicy
+  url: https://humansand.ai/
 x-enrichment:
   date: '2026-07-19'
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-merged-from:
+- humans-and

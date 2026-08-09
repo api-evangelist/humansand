@@ -1,0 +1,29 @@
+# Humans&
+
+> Humans& (humansand.ai) is a human-centric frontier AI lab announced January 20, 2026, reimagining AI
+> around people and their relationships. Research focuses on long-horizon and multi-agent reinforcement
+> learning, memory, and user understanding. No public developer API, SDKs, or developer portal exist yet;
+> this is a pre-product company profile in the API Evangelist network.
+
+## About
+
+- [Website](https://humansand.ai/): Company homepage and announcement.
+- [Research Blog](https://humansand.ai/blog/nvfp4-rl): The 4-bitter Lesson — Balancing Stability and Performance in NVFP4 RL.
+- [Careers](https://jobs.ashbyhq.com/humans-and): Open roles (Ashby job board).
+- [X / Twitter](https://x.com/humansand): Company updates.
+
+## Investors
+
+> Seed round led by SV Angel and co-founder Georges Harik. Investors include NVIDIA, Jeff Bezos, GV
+> (Google Ventures), Emerson Collective, Forerunner, S32, DCVC, Human Capital, Liquid 2, Felicis, CRV,
+> AME Cloud Ventures, Conviction, and Bloomberg Beta, among others.
+
+## Network artifacts
+
+- [Domain security probe](security/humans-and-domain-security.yml): TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture for humansand.ai.
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/humans-and/refs/heads/main/apis.yml): Machine-readable company profile.
+
+## Notes
+
+- No OpenAPI, AsyncAPI, MCP server, SDKs, or developer documentation are published at this time.
+- `/.well-known/*` and `/llms.txt` paths on humansand.ai return the site's catch-all HTML (no real documents).
