@@ -9,6 +9,17 @@ description: humans& (Humansand) is a human-centric frontier AI lab publicly int
   xAI, Anthropic, Google DeepMind, OpenAI, Meta, Reflection, AI2, Stanford, and MIT. Its seed round is
   led by SV Angel and co-founder Georges Harik. As of this profile the company is pre-product with no
   publicly documented API, SDK, or developer platform.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
