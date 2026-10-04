@@ -45,7 +45,7 @@ modified: '2026-08-08'
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Reinforcement Learning
 - Frontier AI
 - AI Research Lab
@@ -60,6 +60,7 @@ tags_raw:
 - AI Research Lab
 - Multi-Agent Systems
 - AI Agents
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
